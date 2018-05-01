@@ -6,6 +6,8 @@ package com.brains.algos.sorting;
     Worst case time complexity : O(n^2)
 */
 public class QuickSort extends AbstractSort {
+
+    @Override
     void sort(int arr[]) {
         quickSort(arr,0, arr.length-1);
     }

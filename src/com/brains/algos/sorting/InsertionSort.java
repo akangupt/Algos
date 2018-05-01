@@ -7,6 +7,7 @@ package com.brains.algos.sorting;
 */
 public class InsertionSort extends AbstractSort {
 
+    @Override
     void sort(int arr[]) {
         int n = arr.length;
         for(int i = 1; i <n; i++) {

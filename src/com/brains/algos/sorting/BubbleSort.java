@@ -7,6 +7,7 @@ package com.brains.algos.sorting;
 */
 public class BubbleSort extends AbstractSort {
 
+    @Override
     void sort(int arr[]) {
         boolean swapped = true;
         int lastSorted = arr.length;

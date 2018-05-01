@@ -7,6 +7,7 @@ package com.brains.algos.sorting;
 */
 public class SelectionSort extends AbstractSort {
 
+    @Override
     void sort(int arr[]) {
         for(int i = 0; i <arr.length-1; i++) {
             int min = i;

@@ -6,9 +6,12 @@ package com.brains.algos.sorting;
     Worst case time complexity : O(n log(n))
 */
 public class MergeSort extends AbstractSort {
+
+    @Override
     void sort(int arr[]) {
         mergeSort(arr, new int[arr.length], 0, arr.length-1);
     }
+
 
     private void mergeSort(int arr[], int temp[], int start, int end) {
         if(start >= end) return;
